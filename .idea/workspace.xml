@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1faJlebEEwG72WSiZYKyKw9uNPr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="" />
+      <created>1596450422205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596450422205</updated>
+      <workItem from="1596450423299" duration="140000" />
+      <workItem from="1596450576172" duration="3662000" />
+      <workItem from="1597195244281" duration="1906000" />
+    </task>
+    <task id="LOCAL-00001" summary="Deployment with pod template">
+      <created>1597195549810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597195549810</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix wrong word">
+      <created>1597195570675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597195570675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deployment with pod template" />
+    <MESSAGE value="Fix wrong word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix wrong word" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="86" width="802" height="724" key="#Plugins" timestamp="1596450603090">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="397" y="86" width="802" height="724" key="#Plugins/0.0.1440.846@0.0.1440.846" timestamp="1596450603090" />
+    <state x="228" y="52" width="984" height="747" key="SettingsEditor" timestamp="1596451093452">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="228" y="52" width="984" height="747" key="SettingsEditor/0.0.1440.846@0.0.1440.846" timestamp="1596451093452" />
+    <state x="426" y="167" width="587" height="512" key="find.popup" timestamp="1596450651548">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="426" y="167" width="587" height="512" key="find.popup/0.0.1440.846@0.0.1440.846" timestamp="1596450651548" />
+    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597195465663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597195465663" />
+    <state x="383" y="167" width="672" height="678" key="search.everywhere.popup" timestamp="1596450665072">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="383" y="167" width="672" height="678" key="search.everywhere.popup/0.0.1440.846@0.0.1440.846" timestamp="1596450665072" />
+  </component>
+</project>
