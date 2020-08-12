@@ -1,18 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dpl-nginx
+  name: app-nginx
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: dpl-nginx
+      app: app-nginx
   template:
     metadata:
       labels:
-        app: pd-nginx
-    containers:
-    - name: nginx
+        app: app-nginx
+    spec:
+      containers:
+      - name: nginx
         image: nginx:1.17-alpine
         ports:
         - containerPort: 80
