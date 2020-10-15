@@ -19,16 +19,18 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Nginx/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Nginx/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/1-Nginx/service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1-Nginx" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +70,9 @@
       <updated>1596450422205</updated>
       <workItem from="1596450423299" duration="140000" />
       <workItem from="1596450576172" duration="3662000" />
-      <workItem from="1597195244281" duration="1906000" />
+      <workItem from="1597195244281" duration="2396000" />
+      <workItem from="1597539721755" duration="333000" />
+      <workItem from="1602725612587" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment with pod template">
       <created>1597195549810</created>
@@ -78,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597195570675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change label to deployments and pods labels and fix indentation">
+      <created>1597200314513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597200314513</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added service in order to access the app on the web">
+      <created>1597200355836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597200355836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Project files">
+      <created>1597200376501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597200376501</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +126,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -111,7 +142,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deployment with pod template" />
     <MESSAGE value="Fix wrong word" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix wrong word" />
+    <MESSAGE value="Change label to deployments and pods labels and fix indentation" />
+    <MESSAGE value="Added service in order to access the app on the web" />
+    <MESSAGE value="Project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="397" y="86" width="802" height="724" key="#Plugins" timestamp="1596450603090">
@@ -122,14 +156,18 @@
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="228" y="52" width="984" height="747" key="SettingsEditor/0.0.1440.846@0.0.1440.846" timestamp="1596451093452" />
+    <state x="319" y="153" key="Vcs.Push.Dialog.v2" timestamp="1597200462556">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="319" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597200462556" />
     <state x="426" y="167" width="587" height="512" key="find.popup" timestamp="1596450651548">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="426" y="167" width="587" height="512" key="find.popup/0.0.1440.846@0.0.1440.846" timestamp="1596450651548" />
-    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597195465663">
+    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597200481927">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597195465663" />
+    <state x="459" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597200481927" />
     <state x="383" y="167" width="672" height="678" key="search.everywhere.popup" timestamp="1596450665072">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
