@@ -26,9 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2-MySQL/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-MySQL/persistent-volume.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-MySQL/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/app/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/helper/helper.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
     </list>
@@ -51,15 +51,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql/service.yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3-Golang-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3-Golang-app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3-Golang-app/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/1-Nginx" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="3-Golang-app/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="3-Golang-app/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +94,8 @@
       <workItem from="1596450576172" duration="3662000" />
       <workItem from="1597195244281" duration="2396000" />
       <workItem from="1597539721755" duration="333000" />
-      <workItem from="1602725612587" duration="5075000" />
+      <workItem from="1602725612587" duration="6420000" />
+      <workItem from="1602812676049" duration="7060000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment with pod template">
       <created>1597195549810</created>
@@ -138,7 +160,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602729853882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creating mysql container with persistent volume and secret to environment">
+      <created>1602732553582</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732553582</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating volume with 20GB to database">
+      <created>1602732596558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732596558</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MySQL service">
+      <created>1602732648190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732648190</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update IDE project">
+      <created>1602732681798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732681798</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Code Style">
+      <created>1602732700412</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732700412</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,26 +234,34 @@
     <MESSAGE value="Changed nginx default index" />
     <MESSAGE value="Create nginx containers with replicas and volume" />
     <MESSAGE value="Moved to 1-Nginx directory" />
+    <MESSAGE value="Creating mysql container with persistent volume and secret to environment" />
+    <MESSAGE value="Creating volume with 20GB to database" />
+    <MESSAGE value="MySQL service" />
     <MESSAGE value="Update IDE project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update IDE project" />
+    <MESSAGE value="Code Style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Style" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="491" y="241" key="#New_Docker_Connection" timestamp="1602817636831">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="491" y="241" key="#New_Docker_Connection/0.0.1440.846@0.0.1440.846" timestamp="1602817636831" />
     <state x="397" y="86" width="802" height="724" key="#Plugins" timestamp="1596450603090">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="397" y="86" width="802" height="724" key="#Plugins/0.0.1440.846@0.0.1440.846" timestamp="1596450603090" />
-    <state x="507" y="175" key="FileChooserDialogImpl" timestamp="1602731151812">
+    <state x="507" y="175" key="FileChooserDialogImpl" timestamp="1602813245195">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
-    <state x="507" y="175" key="FileChooserDialogImpl/0.0.1440.846@0.0.1440.846" timestamp="1602731151812" />
+    <state x="507" y="175" key="FileChooserDialogImpl/0.0.1440.846@0.0.1440.846" timestamp="1602813245195" />
     <state x="228" y="52" width="984" height="747" key="SettingsEditor" timestamp="1596451093452">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="228" y="52" width="984" height="747" key="SettingsEditor/0.0.1440.846@0.0.1440.846" timestamp="1596451093452" />
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2" timestamp="1602729929774">
+    <state x="319" y="144" key="Vcs.Push.Dialog.v2" timestamp="1602732721791">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1602729929774" />
+    <state x="319" y="144" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1602732721791" />
     <state x="319" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597200462556" />
     <state x="426" y="167" width="587" height="512" key="find.popup" timestamp="1596450651548">
       <screen x="0" y="0" width="1440" height="846" />
