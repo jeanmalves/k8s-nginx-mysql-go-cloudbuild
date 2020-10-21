@@ -2,22 +2,22 @@ substitutions:
   _APP_VERSION: 0.1.0
 
 steps:
-  - id: "Rodando teste greeting_test"
-    name: "gcr.io/cloud-builders/go"
-    args: ["test", "github.com/jeanmalves/web/helper"]
-    env: ["GOPATH=."]
+- id: "Rodando teste greeting_test"
+  name: "gcr.io/cloud-builders/go"
+  args: ["test", "github.com/jeanmalves/web/helper"]
+  env: ["GOPATH=."]
 
-  - id: "Gerando imagem"
-    name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'build'
-      - '--build-arg'
-      - 'version=${_APP_VERSION}'
-      - '-t'
-      - 'gcr.io/$PROJECT_ID/golang-greeting-server-app:latest'
-      - '-t'
-      - 'gcr.io/$PROJECT_ID/golang-greeting-server-app:${_APP_VERSION}'
-      - '.'
+- id: "Gerando imagem"
+  name: 'gcr.io/cloud-builders/docker'
+  args:
+    - 'build'
+    - '--build-arg'
+    - 'version=${_APP_VERSION}'
+    - '-t'
+    - 'gcr.io/$PROJECT_ID/golang-greeting-server-app:latest'
+    - '-t'
+    - 'gcr.io/$PROJECT_ID/golang-greeting-server-app:${_APP_VERSION}'
+    - '.'
 
 images:
   - 'gcr.io/$PROJECT_ID/golang-greeting-server-app:latest'
