@@ -26,10 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/app/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/helper/helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile.prod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/helper/helper_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-Golang-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +96,8 @@
       <workItem from="1597195244281" duration="2396000" />
       <workItem from="1597539721755" duration="333000" />
       <workItem from="1602725612587" duration="6420000" />
-      <workItem from="1602812676049" duration="7060000" />
+      <workItem from="1602812676049" duration="7255000" />
+      <workItem from="1603245058167" duration="7421000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment with pod template">
       <created>1597195549810</created>
@@ -195,7 +197,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602732700412</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Listen, serve web page and show message through helper function">
+      <created>1602819850951</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602819850951</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Return string with html bold">
+      <created>1602819902363</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602819902363</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Generate go web app">
+      <created>1602819938610</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602819938610</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update IDE project">
+      <created>1602819952042</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602819952042</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,9 +267,12 @@
     <MESSAGE value="Creating mysql container with persistent volume and secret to environment" />
     <MESSAGE value="Creating volume with 20GB to database" />
     <MESSAGE value="MySQL service" />
-    <MESSAGE value="Update IDE project" />
     <MESSAGE value="Code Style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Style" />
+    <MESSAGE value="Listen, serve web page and show message through helper function" />
+    <MESSAGE value="Return string with html bold" />
+    <MESSAGE value="Generate go web app" />
+    <MESSAGE value="Update IDE project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update IDE project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="241" key="#New_Docker_Connection" timestamp="1602817636831">
@@ -258,10 +291,10 @@
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="228" y="52" width="984" height="747" key="SettingsEditor/0.0.1440.846@0.0.1440.846" timestamp="1596451093452" />
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2" timestamp="1602732721791">
+    <state x="319" y="144" key="Vcs.Push.Dialog.v2" timestamp="1602819960016">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1602732721791" />
+    <state x="319" y="144" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1602819960016" />
     <state x="319" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597200462556" />
     <state x="426" y="167" width="587" height="512" key="find.popup" timestamp="1596450651548">
       <screen x="0" y="0" width="1440" height="846" />
