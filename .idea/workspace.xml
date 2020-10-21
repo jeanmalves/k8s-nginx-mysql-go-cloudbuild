@@ -26,11 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile.prod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Golang-app/src/github.com/jeanmalves/web/helper/helper_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Golang-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/3-Golang-app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +94,7 @@
       <workItem from="1597539721755" duration="333000" />
       <workItem from="1602725612587" duration="6420000" />
       <workItem from="1602812676049" duration="7255000" />
-      <workItem from="1603245058167" duration="7421000" />
+      <workItem from="1603245058167" duration="8447000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment with pod template">
       <created>1597195549810</created>
@@ -225,7 +222,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602819952042</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Testing if string has been returned">
+      <created>1603252637744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252637744</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Dockerfile image to development">
+      <created>1603252701982</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252701982</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Dockerfile image to production">
+      <created>1603252727056</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252727056</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Test step CI/CD">
+      <created>1603252770960</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252770960</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changes IDE project">
+      <created>1603252807598</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252807598</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +304,12 @@
     <MESSAGE value="Return string with html bold" />
     <MESSAGE value="Generate go web app" />
     <MESSAGE value="Update IDE project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update IDE project" />
+    <MESSAGE value="Testing if string has been returned" />
+    <MESSAGE value="Dockerfile image to development" />
+    <MESSAGE value="Dockerfile image to production" />
+    <MESSAGE value="Test step CI/CD" />
+    <MESSAGE value="Changes IDE project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes IDE project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="241" key="#New_Docker_Connection" timestamp="1602817636831">
