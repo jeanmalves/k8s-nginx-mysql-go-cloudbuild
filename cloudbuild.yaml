@@ -3,3 +3,4 @@ steps:
   name: "gcr.io/cloud-builders/go"
   args: ["test", "github.com/jeanmalves/web/helper"]
   env: ["GOPATH=."]
+  dir: "./3-Golang-app/src"
