@@ -2,4 +2,4 @@ steps:
 - id: "Rodando teste greeting_test"
   name: "gcr.io/cloud-builders/go"
   args: ["test", "github.com/jeanmalves/web/helper"]
-  env: ["GOPATH=."]
+  env: ["GOPATH=3-Golang-app"]
