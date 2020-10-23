@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-golang
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-golang
+  template:
+    metadata:
+      labels:
+        app: app-golang
+    spec:
+      containers:
+      - name: golang-webserver
+        image: jeanmalves/golang-webserver
+        ports:
+        - containerPort: 8000

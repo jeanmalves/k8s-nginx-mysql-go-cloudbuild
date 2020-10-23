@@ -26,8 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e83452a-4902-47ee-a1c1-78ea8a6a800b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-Golang-app/service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/3-Golang-app/cloudbuild.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bug/fix-cloudbuild" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1faJlebEEwG72WSiZYKyKw9uNPr" />
@@ -55,13 +61,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/3-Golang-app/src" />
+      <recent name="$PROJECT_DIR$/1-Nginx" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/3-Golang-app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/3-Golang-app/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/1-Nginx" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +100,11 @@
       <workItem from="1597539721755" duration="333000" />
       <workItem from="1602725612587" duration="6420000" />
       <workItem from="1602812676049" duration="7255000" />
-      <workItem from="1603245058167" duration="8447000" />
+      <workItem from="1603245058167" duration="10954000" />
+      <workItem from="1603297227723" duration="1616000" />
+      <workItem from="1603304040742" duration="719000" />
+      <workItem from="1603337824587" duration="2297000" />
+      <workItem from="1603422541042" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment with pod template">
       <created>1597195549810</created>
@@ -257,7 +267,77 @@
       <option name="project" value="LOCAL" />
       <updated>1603252807598</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Generate app container image">
+      <created>1603253664831</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603253664831</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Changes IDE project">
+      <created>1603253684751</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603253684751</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fIx identation">
+      <created>1603254084715</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603254084715</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Moved file path">
+      <created>1603254348054</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603254348054</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Don't have to generate new image">
+      <created>1603255548933</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603255548933</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Define go app path">
+      <created>1603298792792</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603298792792</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Changed gopath">
+      <created>1603304152769</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603304152769</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Define dir app">
+      <created>1603337967522</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603337967522</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Redefine GOPATH">
+      <created>1603339248258</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603339248258</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Redefine GOPATH again">
+      <created>1603339360238</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603339360238</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,11 +368,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deployment with pod template" />
-    <MESSAGE value="Fix wrong word" />
-    <MESSAGE value="Change label to deployments and pods labels and fix indentation" />
-    <MESSAGE value="Added service in order to access the app on the web" />
-    <MESSAGE value="Project files" />
     <MESSAGE value="Changed nginx default index" />
     <MESSAGE value="Create nginx containers with replicas and volume" />
     <MESSAGE value="Moved to 1-Nginx directory" />
@@ -308,8 +383,17 @@
     <MESSAGE value="Dockerfile image to development" />
     <MESSAGE value="Dockerfile image to production" />
     <MESSAGE value="Test step CI/CD" />
+    <MESSAGE value="Generate app container image" />
     <MESSAGE value="Changes IDE project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes IDE project" />
+    <MESSAGE value="fIx identation" />
+    <MESSAGE value="Moved file path" />
+    <MESSAGE value="Don't have to generate new image" />
+    <MESSAGE value="Define go app path" />
+    <MESSAGE value="Changed gopath" />
+    <MESSAGE value="Define dir app" />
+    <MESSAGE value="Redefine GOPATH" />
+    <MESSAGE value="Redefine GOPATH again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redefine GOPATH again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="241" key="#New_Docker_Connection" timestamp="1602817636831">
@@ -324,14 +408,18 @@
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="507" y="175" key="FileChooserDialogImpl/0.0.1440.846@0.0.1440.846" timestamp="1602813245195" />
+    <state x="379" y="118" width="673" height="622" key="RollbackChangesDialog" timestamp="1603298709707">
+      <screen x="0" y="0" width="1440" height="846" />
+    </state>
+    <state x="379" y="118" width="673" height="622" key="RollbackChangesDialog/0.0.1440.846@0.0.1440.846" timestamp="1603298709707" />
     <state x="228" y="52" width="984" height="747" key="SettingsEditor" timestamp="1596451093452">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="228" y="52" width="984" height="747" key="SettingsEditor/0.0.1440.846@0.0.1440.846" timestamp="1596451093452" />
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2" timestamp="1602819960016">
+    <state x="319" y="144" width="802" height="540" key="Vcs.Push.Dialog.v2" timestamp="1603339364581">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
-    <state x="319" y="144" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1602819960016" />
+    <state x="319" y="144" width="802" height="540" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1603339364581" />
     <state x="319" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597200462556" />
     <state x="426" y="167" width="587" height="512" key="find.popup" timestamp="1596450651548">
       <screen x="0" y="0" width="1440" height="846" />
